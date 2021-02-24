@@ -35,7 +35,7 @@ const LeftColumn = () => {
        </div>
        <div className="resume_item resume_skills">
          <div className="title">
-           <p className="bold">skill's</p>
+           <p className="bold">skills</p>
          </div>
          <ul>
            <li>
