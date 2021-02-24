@@ -1,42 +1,13 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import profileImage from "../images/profile-picture.png"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+const Header = () => (
+  <div>
+    <h1 style={{marginRight:"50%", marginRight:"50%"}}>Raul Roca Juncà</h1>
+    <img src={profileImage} style={{borderRadius: "50%", marginLeft:"50%"}}/>
+  </div>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Header
+
+

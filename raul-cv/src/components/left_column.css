@@ -1,0 +1,94 @@
+.resume_left {
+    width: 280px;
+    background: #0bb5f4;
+  }
+
+.resume_left .resume_profile {
+    width: 100%;
+    height: 280px;
+}
+
+.resume_left .resume_profile img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .resume_left .resume_content {
+    padding: 0 25px;
+  }
+  
+  .resume_left .bold {
+  color: #fff;
+}
+.resume_item {
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+  }
+
+  .resume_left .resume_item:last-child, .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.resume_left ul li {
+    display:flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .resume_left ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .resume_left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+  }
+  .mobile, .email{
+    margin-right: 5px;
+  }
+
+
+  .resume_left ul li .data {
+    color: #b1eaff;
+  }
+  .resume_left .resume_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #b1eaff;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .resume_left .resume_skills ul li .skill_name {
+    width: 25%;
+  }
+
+  .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+  }
+
+  .resume_left .resume_skills ul li .skill_per {
+    width: 15%;
+  }
+
+  .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+  }
+
+  .resume_left .resume_social .semi-bold {
+    color: #fff;
+    margin-bottom: 3px;
+  }
