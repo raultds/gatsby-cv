@@ -30,9 +30,7 @@ exports.createPages = ({actions: {createPage}}) => {
 
   return new Promise((resolve, reject) => {
     fetch('https://cv-page.prismic.io/api/v1/documents/search?ref=YDNpXBUAAMmV9aOD#format=json').then(result => result.json()).then(result => {
-      console.log(result)
       const prismicData = getExperiences(result)
-      console.log(prismicData)
       createPage({
         path: `/`,
         component: require.resolve("./src/pages/index.js"),
